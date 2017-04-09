@@ -21,4 +21,11 @@
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 
+    <style name="NetworkTheme" parent="Theme.AppCompat">
+        <item name="android:colorPrimary">@color/teal_500</item>
+        <item name="android:colorPrimaryDark">@color/teal_500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>

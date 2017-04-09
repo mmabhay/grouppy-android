@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Grouppy</string>
+
+    <string name="title_cancel">Cancel</string>
+    <string name="title_next">Next</string>
+    <string name="title_continue">Continue</string>
+    <string name="title_signin">Sign in</string>
+    <string name="title_signup">Sign up</string>
+    <string name="title_proceed">Proceed</string>
+    <string name="title_submit">Submit</string>
+    <string name="title_add">Add</string>
+    <string name="title_network">Network</string>
+
+    <string name="text_string_grouppy_what">This is the network you use to sign in to Grouppy.</string>
+
 </resources>

@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
     @BindView(R.id.app_title_tv)
     TextView splashTitleTv;
 
-    private final int SPLASH_DISPLAY_LENGTH = 5000;
+    private final int SPLASH_DISPLAY_LENGTH = 2600;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -39,7 +39,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, NetworkActivity.class));
                 finish();
             }
         }, SPLASH_DISPLAY_LENGTH);
