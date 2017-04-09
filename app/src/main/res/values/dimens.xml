@@ -36,5 +36,6 @@
     <dimen name="dimen_18_sp">18sp</dimen>
     <dimen name="dimen_20_sp">20sp</dimen>
     <dimen name="dimen_22_sp">22sp</dimen>
+    <dimen name="dimen_30_sp">30sp</dimen>
 
 </resources>

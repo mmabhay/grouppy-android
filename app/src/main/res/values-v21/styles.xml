@@ -35,4 +35,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="SingupTheme" parent="Theme.AppCompat">
+        <item name="android:colorPrimary">@color/pink_300</item>
+        <item name="android:colorPrimaryDark">@color/pink_300</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>

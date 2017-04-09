@@ -34,4 +34,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="SignupTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/pink_300</item>
+        <item name="colorPrimaryDark">@color/pink_300</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>

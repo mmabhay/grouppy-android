@@ -12,6 +12,10 @@
     <string name="title_network">Network</string>
     <string name="title_username_email">Username/Email</string>
     <string name="title_password">Password</string>
+    <string name="title_name">Full Name</string>
+    <string name="title_email">Email</string>
+    <string name="title_username">Username</string>
+    <string name="title_confirm_password">Confirm Password</string>
 
     <string name="text_string_grouppy_what">This is the network you use to sign in to Grouppy.</string>
 
