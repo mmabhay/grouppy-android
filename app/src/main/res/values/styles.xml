@@ -27,4 +27,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="LoginTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/cyan_600</item>
+        <item name="colorPrimaryDark">@color/cyan_600</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>

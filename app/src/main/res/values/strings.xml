@@ -10,6 +10,8 @@
     <string name="title_submit">Submit</string>
     <string name="title_add">Add</string>
     <string name="title_network">Network</string>
+    <string name="title_username_email">Username/Email</string>
+    <string name="title_password">Password</string>
 
     <string name="text_string_grouppy_what">This is the network you use to sign in to Grouppy.</string>
 

@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_500"
-    tools:context="xyz.abhaychauhan.grouppy.NetworkActivity">
+    android:background="@color/cyan_600"
+    tools:context="xyz.abhaychauhan.grouppy.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="@dimen/dimen_40_dp"
-        android:padding="@dimen/dimen_10_dp">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/grouppy_title_tv"
@@ -22,31 +20,60 @@
             android:layout_marginTop="@dimen/dimen_20_dp"
             android:text="Grouppy"
             android:textColor="@android:color/white"
-            android:textSize="60sp"
-            android:layout_marginBottom="@dimen/dimen_40_dp"/>
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/login_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_20_dp"
+            android:text="Login to Grouppy"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_22_sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_10_dp">
 
         <EditText
-            android:id="@+id/network_name_et"
+            android:id="@+id/user_email_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:background="@drawable/rectangle_edit_text_bg"
             android:fontFamily="sans-serif-medium"
-            android:hint="Network Name"
+            android:hint="@string/title_username_email"
+            android:inputType="text"
+            android:maxLines="1"
             android:padding="20dp"
-            android:textColor="@color/teal_500"
-            android:textColorHint="@color/teal_500"
+            android:textColor="@color/cyan_600"
+            android:textColorHint="@color/cyan_600"
             android:textCursorDrawable="@null" />
 
-        <TextView
-            android:id="@+id/grouppy_network_what_tv"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/user_password_et"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:text="@string/text_string_grouppy_what"
-            android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle_edit_text_bg"
+            android:drawableRight="@drawable/ic_eye_open_cyan"
+            android:fontFamily="sans-serif-medium"
+            android:hint="@string/title_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:textColor="@color/cyan_600"
+            android:textColorHint="@color/cyan_600"
+            android:textCursorDrawable="@null" />
 
     </LinearLayout>
 
@@ -63,27 +90,29 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/dimen_5_dp"
             android:layout_weight="1"
-            android:background="@drawable/rect_btn_bg"
+            android:background="@drawable/rect_btn_bg_cyan"
             android:gravity="center"
             android:paddingBottom="@dimen/dimen_10_dp"
             android:paddingTop="@dimen/dimen_10_dp"
             android:text="@string/title_cancel"
             android:textAllCaps="true"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/dimen_20_sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/btn_next_tv"
+            android:id="@+id/btn_signin_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dimen_5_dp"
             android:layout_weight="1"
-            android:background="@drawable/rect_btn_bg"
+            android:background="@drawable/rect_btn_bg_cyan"
             android:gravity="center"
             android:paddingBottom="@dimen/dimen_10_dp"
             android:paddingTop="@dimen/dimen_10_dp"
-            android:text="@string/title_next"
+            android:text="@string/title_signin"
             android:textAllCaps="true"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/dimen_20_sp"
             android:textStyle="bold" />
 

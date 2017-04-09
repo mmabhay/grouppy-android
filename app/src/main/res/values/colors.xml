@@ -17,5 +17,11 @@
     <color name="teal_700">#00796B</color>
     <color name="teal_800">#00695C</color>
     <color name="teal_900">#004D40</color>
+    
+    <!-- Cyan -->
+    <color name="cyan_600">#00ACC1</color>
+    <color name="cyan_700">#0097A7</color>
+    <color name="cyan_800">#00838F</color>
+    <color name="cyan_900">#006064</color>
 
 </resources>
