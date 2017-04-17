@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cyan_600"
+    android:id="@+id/signin_layout"
     tools:context="xyz.abhaychauhan.grouppy.LoginActivity">
 
     <LinearLayout
@@ -85,7 +86,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/btn_cancel_tv"
+            android:id="@+id/btn_signup_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/dimen_5_dp"
@@ -94,7 +95,7 @@
             android:gravity="center"
             android:paddingBottom="@dimen/dimen_10_dp"
             android:paddingTop="@dimen/dimen_10_dp"
-            android:text="@string/title_cancel"
+            android:text="@string/title_signup"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:textSize="@dimen/dimen_20_sp"
