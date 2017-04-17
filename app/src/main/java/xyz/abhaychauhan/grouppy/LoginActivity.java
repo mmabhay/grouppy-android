@@ -1,6 +1,8 @@
 package xyz.abhaychauhan.grouppy;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
@@ -125,6 +127,15 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             } else {
                 Boolean login = object.optBoolean("login");
                 if (login) {
+                    String token = object.optString("token");
+
+                    // Storing token
+                    SharedPreferences prefs = this.getSharedPreferences("SharedPref",
+                            Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = prefs.edit();
+                    editor.putString("token", token);
+                    editor.commit();
+
                     showSnackbarMessage("User successfully loggedin");
                     Intent intent = new Intent(this, NetworkActivity.class);
                     startActivity(intent);
